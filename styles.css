@@ -1,0 +1,16 @@
+body {background-color: #F8D4FF;
+      color: #3C0547;.raleway-<uniquifier> {font-family: "Raleway", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <100>;
+      font-style: normal;}
+
+  .res-name {color: hotpink;}
+
+  .res-info {color: #862B8A !important;}
+
+  .res-container {display: flex;
+  gap: 40px;
+  flex-wrap: wrap;}
+
+h1 {color: hotpink;
+  margin-left: 20px;}
