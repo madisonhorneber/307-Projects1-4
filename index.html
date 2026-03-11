@@ -2,6 +2,8 @@
 <html lang="en">
 	<head>
 		<title> Girl Uber</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
 
 <link rel="stylesheet" href="styles.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,15 +16,21 @@ body {font-family: "Raleway", sans-serif;}
 	<body>
 		<h1>Girl Uber</h1>
 		<p> &quot; Girls Driving Girls Since 2026 &quot;</p>
-<section>
-<menu>
-  <li>Home</li>
-  <li>Services</li>
-  <li>Activity</li>
-  <li>Offers</li>
-  <li>Account</li>
-</menu>
-</section>
+
+<ul class="nav justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Services</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Activity</a>
+  </li>
+   <li class="nav-item">
+    <a class="nav-link" href="#">Account</a>
+  </li>
+</ul>
 
 <form>
  <input type= "text" name ="location" value = "Where to?">
@@ -37,13 +45,24 @@ Harrisonburg, VA</p>
 <p>Regal Harrisonburg<br>
 381 University Blvd, Harrisonburg, VA</p>
 
+
 <section>
 	<h2> Suggestions </h2>
-	<img src="little-italy.jpeg" width="40" alt="little italy pizza"><img src="little-italy.jpeg" width="40" alt="little italy pizza"><br>
-		<button type="button">Ride</button>
-		<button type="button">Food</button>
-		<button type="button">Reserve</button>
-		<button type="button">Rental Cars</button>
+<div class="container text-center">
+  <div class="row row-cols-auto">
+    <div class="col">Ride</div>
+    <div class="col">Food</div>
+    <div class="col">Reserve</div>
+    <div class="col">Teens</div>
+    <div class="col">Rental Cars</div>
+		<div class="col">Grocery</div>
+		<div class="col">Seniors</div>
+		<div class="col">Alcohol</div>
+		<div class="col">Uber Ski</div>
+		<div class="col">Electronics</div>
+		<div class="col">Convinience</div>
+  </div>
+</div>
 	</section>
 
 <section>
@@ -54,34 +73,46 @@ Harrisonburg, VA</p>
 <section class=res-section>
 	<h2> Go out or order in </h2>
 
-	<div class="res-container">
 
-	<div class="res">
-		<img src="little-italy.jpeg" width="300" alt="little italy pizza"><br>
-		<h3 class="res-name">Little Italy</h3>
-		<p class="res-info">
-	$3.99 Delivery Fee<br>
-	4.3 Stars(290+) - 35 min
-		</p>
-	</div>
+<div class="container">
+  <div class="row">
 
-<div class="res">
-	<img src="mr-satos.jpeg" width="300" alt="mr satos sushi"><br>
-	<h3 class="res-name">Mr. Sato Express</h3>
-	<p class="res-info">
-	$0.49 Delivery Fee<br>
-	4.8 Stars(1,000+) - 15 min</p>
-	</div>
-
-<div class="res">
-	<img src="mi-pueblito.jpeg" width="300" alt="mi pueblito tacos"><br>
-	<h3 class="res-name">Mi Pueblito</h3>
-	<p class="res-info">
-	$0.49 Delivery Fee<br>
-	4.6 Stars(470+) - 11 min</p>
-	</div>
+    <div class="col-md-4">
+<div class="card" style="width: 18rem;">
+  <img src="little-italy.jpeg" width="285" alt="little italy pizza">
+  <div class="card-body">
+    <h3 class="card-title">Little Italy</h3>
+    <p class="card-text">$3.99 Delivery Fee<br>
+	4.3 Stars(290+) - 35 min</p>
+    <a href="#" class="btn btn-primary">Order Now</a>
+  </div>
 </div>
-</section>
+</div>
+
+
+<div class="col-md-4">
+<div class="card" style="width: 18rem;">
+  <img src="mr-satos.jpeg" width="285" alt="mr satos sushi">
+  <div class="card-body">
+    <h3 class="card-title">Mr. Sato Express</h3>
+    <p class="card-text">$0.49 Delivery Fee<br>
+	4.8 Stars(1,000+) - 15 min</p>
+    <a href="#" class="btn btn-primary">Order Now</a>
+  </div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card" style="width: 18rem;">
+  <img src="mi-pueblito.jpeg" width="285" alt="mi pueblito tacos">
+  <div class="card-body">
+    <h3 class="card-title">Mi Pueblito</h3>
+    <p class="card-text">$0.49 Delivery Fee<br>
+	4.8 Stars(1,000+) - 15 min</p>
+    <a href="#" class="btn btn-primary">Order Now</a>
+  </div>
+</div>
+</div>
 
 
 <section>

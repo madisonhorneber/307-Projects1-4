@@ -4,13 +4,15 @@ body {background-color: #F8D4FF;
       font-weight: 100;
       font-style: normal;}
 
-  .res-name {color: hotpink;}
+  .card-title {color: hotpink;}
 
-  .res-info {color: #862B8A !important;}
+  .card-text {color: #862B8A !important;}
 
   .res-container {display: flex;
   gap: 40px;
   flex-wrap: wrap;}
+
+  .btn btn-primary {color: hotpink;}
 
 h1 {color: hotpink;
   margin-left: 20px;}
