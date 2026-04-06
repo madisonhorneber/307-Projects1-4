@@ -4,6 +4,8 @@
 		<title> Girl Uber</title>
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
 
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
 
 <link rel="stylesheet" href="styles.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,61 +19,78 @@ body {font-family: "Raleway", sans-serif;}
 		<h1>Girl Uber</h1>
 		<p> &quot; Girls Driving Girls Since 2026 &quot;</p>
 
-<ul class="nav justify-content-center">
+<ul class="nav justify-content-end">
   <li class="nav-item">
     <a class="nav-link active" aria-current="page" href="#">Home</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Services</a>
+    <a class="nav-link" href="#">Account</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Activity</a>
+    <a class="nav-link" href="#">About Us</a>
   </li>
-   <li class="nav-item">
-    <a class="nav-link" href="#">Account</a>
+    <li class="nav-item">
+    <a class="nav-link" href="#">Help</a>
   </li>
 </ul>
 
 <form>
  <input type= "text" name ="location" value = "Where to?">
+</form>
 
-
-<p>1087 Woodbury Circle<br>
-Harrisonburg, VA</p>
-
-<p>1700 Meridian Circle<br>
-Harrisonburg, VA</p>
-
-<p>Regal Harrisonburg<br>
-381 University Blvd, Harrisonburg, VA</p>
-
-
-<section>
-	<h2> Suggestions </h2>
-<div class="container text-center">
-  <div class="row row-cols-auto">
-    <div class="col">Ride</div>
-    <div class="col">Food</div>
-    <div class="col">Reserve</div>
-    <div class="col">Teens</div>
-    <div class="col">Rental Cars</div>
-		<div class="col">Grocery</div>
-		<div class="col">Seniors</div>
-		<div class="col">Alcohol</div>
-		<div class="col">Uber Ski</div>
-		<div class="col">Electronics</div>
-		<div class="col">Convinience</div>
-  </div>
+ <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Recent History
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">1087 Woodbury Circle<br>
+Harrisonburg, VA</a></li>
+    <li><a class="dropdown-item" href="#">1700 Meridian Circle<br>
+Harrisonburg, VA</a></li>
+    <li><a class="dropdown-item" href="#">Regal Harrisonburg<br>
+381 University Blvd, Harrisonburg, VA</a></li>
+  </ul>
 </div>
-	</section>
 
-<section>
-	<h2> $2 off your next meal </h2>
-		<button type="button">Order Uber Eats</button>
-	</section>
+<form class="row g-3">
+  <div class="col-md-6">
+    <label for="inputname4" class="form-label">First Name</label>
+    <input type="email" class="form-control" id="inputname4">
+  </div>
+  <div class="col-md-6">
+    <label for="inputnumber4" class="form-label">Number of People</label>
+    <input type="password" class="form-control" id="inputnumber4">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Address</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress2" class="form-label">Address 2</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+  </div>
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">City</label>
+    <input type="text" class="form-control" id="inputCity">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">State</label>
+    <select id="inputState" class="form-select">
+      <option selected>Choose...</option>
+      <option>...</option>
+    </select>
+  </div>
+  <div class="col-md-2">
+    <label for="inputZip" class="form-label">Zip</label>
+    <input type="text" class="form-control" id="inputZip">
+  </div>
+  <div class="col-12">
+    <button type="submit" class="btn btn-primary">Go</button>
+  </div>
+</form>
 
 <section class=res-section>
-	<h2> Go out or order in </h2>
+	<h2> Choose Your Driver </h2>
 
 
 <div class="container">
@@ -79,12 +98,12 @@ Harrisonburg, VA</p>
 
     <div class="col-md-4">
 <div class="card" style="width: 18rem;">
-  <img src="little-italy.jpeg" width="285" alt="little italy pizza">
+  <img src="angela.jpeg" width="285" alt="angela">
   <div class="card-body">
-    <h3 class="card-title">Little Italy</h3>
-    <p class="card-text">$3.99 Delivery Fee<br>
-	4.3 Stars(290+) - 35 min</p>
-    <a href="#" class="btn btn-primary">Order Now</a>
+    <h3 class="card-title">Angela S.</h3>
+    <p class="card-text">Driving since 2022<br>
+	4.9 Stars(290+) - 5 Minutes Away</p>
+    <a href="#" class="btn btn-primary">Choose Angela</a>
   </div>
 </div>
 </div>
@@ -92,41 +111,41 @@ Harrisonburg, VA</p>
 
 <div class="col-md-4">
 <div class="card" style="width: 18rem;">
-  <img src="mr-satos.jpeg" width="285" alt="mr satos sushi">
+  <img src="karen.jpeg" width="285" alt="karen">
   <div class="card-body">
-    <h3 class="card-title">Mr. Sato Express</h3>
-    <p class="card-text">$0.49 Delivery Fee<br>
-	4.8 Stars(1,000+) - 15 min</p>
-    <a href="#" class="btn btn-primary">Order Now</a>
+    <h3 class="card-title">Karen B.</h3>
+    <p class="card-text">Driving since 2019<br>
+	4.8 Stars(1,000+) - 10 Minutes Away</p>
+    <a href="#" class="btn btn-primary">Choose Karen</a>
   </div>
 </div>
 </div>
 
 <div class="col-md-4">
 <div class="card" style="width: 18rem;">
-  <img src="mi-pueblito.jpeg" width="285" alt="mi pueblito tacos">
+  <img src="olivia.jpeg" width="285" alt="olivia">
   <div class="card-body">
-    <h3 class="card-title">Mi Pueblito</h3>
-    <p class="card-text">$0.49 Delivery Fee<br>
-	4.8 Stars(1,000+) - 15 min</p>
-    <a href="#" class="btn btn-primary">Order Now</a>
+    <h3 class="card-title">Olivia R.</h3>
+    <p class="card-text">Driving since 2020<br>
+	4.7 Stars(1,000+) - 3 Minutes Away</p>
+    <a href="#" class="btn btn-primary">Choose Olivia</a>
   </div>
 </div>
 </div>
-
 
 <section>
-	<h2> Get anything delivered </h2>
-	<img src="little-italy.jpeg" width="40" alt="little italy pizza"><img src="little-italy.jpeg" width="40" alt="little italy pizza"><br>
-		<button type="button">Pizza</button>
-		<button type="button">Thai</button>
-		<button type="button">Sushi</button>
-		<button type="button">Alcohol</button>
-		<button type="button">Chinese</button>
-		<button type="button">Convenience</button>
-		<button type="button">Mexican</button>
-	</section>
-</form>
+	<h2> In Danger? </h2>
+	<p>If you are in immediate danger, clicking this button will send your location to the nearest driver to pick you up. The police will be notified.</p>
+	<button type="button" class="btn btn-danger">I am in immediate danger</button>
+</section>
+
+<section>
+	<h2> Who Are We? </h2>
+	<p>Girl Uber is committed to creating safer, more inclusive transportation options. A woman-owned car service app is especially important because it places safety at the center of the transportation experience. By prioritizing features like thorough driver background checks, real-time ride tracking, emergency alert buttons, and the ability to share trip details with trusted contacts, it directly addresses common safety concerns many riders—especially women—face. These platforms are often designed with a deeper understanding of personal security, offering options such as driver-rider matching preferences and responsive, empathetic customer support in case of issues. Beyond convenience, this strong focus on safety helps riders feel more confident and in control, making everyday travel more secure while also setting a higher standard for the entire rideshare industry.</p>
+</section>
+</div>
+</div>
+</section>
 </body>
 </html>
 
